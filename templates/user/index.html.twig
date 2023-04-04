@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+Hello user !
+
+    {{ form_start(form_user) }}
+
+    <button type="submit">Valider</button>
+    {{ form_end(form_user) }}
+{% endblock %}

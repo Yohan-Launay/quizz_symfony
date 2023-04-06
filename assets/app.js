@@ -11,3 +11,6 @@ import './styles/app.css';
 // start the Stimulus application
 import './bootstrap';
 import './sass/app.sass'
+
+// enable the interactive UI components from Flowbite
+import 'flowbite';

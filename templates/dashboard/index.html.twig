@@ -1,0 +1,9 @@
+
+{% if app.user %}
+        {% block sidebar %}
+            {% include('dashboard/sidebar.html.twig') %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+{% endif %}

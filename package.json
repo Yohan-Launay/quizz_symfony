@@ -26,7 +26,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "flowbite": "^1.6.4",
+        "flowbite": "^1.6.5",
         "jquery": "^3.6.4",
         "node": "^19.8.1",
         "sass": "^1.60.0"

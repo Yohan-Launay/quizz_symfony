@@ -78,8 +78,6 @@ class Movie
         $this->updatedAt = $updatedAt;
     }
 
-
-
     public function getId(): ?int
     {
         return $this->id;
@@ -152,7 +150,7 @@ class Movie
      * must be able to accept an instance of 'File' as the bundle will inject one here
      * during Doctrine hydration.
      *
-     * @param File|\Symfony\Component\HttpFoundation\File\UploadedFile|null $imageFile
+     * @param File|null $imageFile
      */
     public function setImageFile(?File $imageFile = null): void
     {

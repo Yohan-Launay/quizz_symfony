@@ -17,8 +17,6 @@ class HomeController extends AbstractController
     {
         $user = $this->getUser();
 
-        return $this->render('common/nav.html.twig', [
-            'user' => $user,
-        ]);
+        return $this->render('common/nav.html.twig', ['user' => $user]);
     }
 }

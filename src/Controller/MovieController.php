@@ -29,28 +29,12 @@ class MovieController extends AbstractController
 
 
     /**
-     * @param Request $request
-     * @param EntityManagerInterface $entityManager
      * @return Response
      */
     #[Route('dashboard/movie', name: 'app_movie')]
-    public function index(Request $request, EntityManagerInterface $entityManager): Response
+    public function index(): Response
     {
-        $movie= new Movie();
-        $form = $this->createForm(MovieType::class, $movie);
-        $form->handleRequest($request);
-
-        if($form->isSubmitted() && $form->isValid())
-        {
-            $movie->setCreatedAt(New DateTime);
-            $movie->setUpdatedAt(New DateTime);
-            $entityManager->persist($movie);
-            $entityManager->flush();
-            return $this->redirectToRoute('app_movie');
-        }
-
         $params['movies'] = $this->movieRepository->findAll();
-        $params['movie_form'] = $form->createView();
 
         return $this->render('dashboard/movie/movie.html.twig', $params);
     }

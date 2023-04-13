@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aeb111a-51b8-47cb-8ec4-99344f1b4227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/common/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/common/nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/app.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/common/nav.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/movie/movie.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/movie/movie.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/nav.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/security/login.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/security/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/nav.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/home/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/sidebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/sidebar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="2aeb111a-51b8-47cb-8ec4-99344f1b4227" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,25 +12,10 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Sass File" />
-      </list>
-    </option>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
@@ -189,17 +145,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
-      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
-      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
-      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
-      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2NsfRWDKLqdOkl8DQePZoJ0BApT" />
   <component name="ProjectViewState">
@@ -211,33 +157,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;12.22.9&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;12.20.55&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/yohan/symfony-project/quizz/public/assets/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yohan/symfony-project/quizz&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/styles" />
-      <recent name="$PROJECT_DIR$/assets/img/icones" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -255,20 +183,6 @@
       <workItem from="1680457704609" duration="75000" />
       <workItem from="1680457785396" duration="89000" />
       <workItem from="1680468798235" duration="609000" />
-      <workItem from="1680624182176" duration="10479000" />
-      <workItem from="1680642121907" duration="3280000" />
-      <workItem from="1680714214244" duration="84000" />
-      <workItem from="1680714298967" duration="34000" />
-      <workItem from="1680714340245" duration="1152000" />
-      <workItem from="1680722998865" duration="61000" />
-      <workItem from="1680723248474" duration="6099000" />
-      <workItem from="1680803217361" duration="12345000" />
-      <workItem from="1681136378011" duration="2619000" />
-      <workItem from="1681139658534" duration="21556000" />
-      <workItem from="1681227656803" duration="3654000" />
-      <workItem from="1681231320699" duration="12568000" />
-      <workItem from="1681326529044" duration="7010000" />
-      <workItem from="1681409904822" duration="9158000" />
     </task>
     <servers />
   </component>

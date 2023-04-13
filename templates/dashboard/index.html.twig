@@ -3,10 +3,7 @@
         {% block sidebar %}
             {% include('dashboard/sidebar.html.twig') %}
         {% endblock %}
-    <div class="dark:bg-gray-800">
-        <div class="p-4 sm:ml-64 ">
-            {% block content %}
-            {% endblock %}
-        </div>
-    </div>
+        {% block content %}
+        {% endblock %}
+
 {% endif %}

@@ -5,27 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aeb111a-51b8-47cb-8ec4-99344f1b4227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icone-default-profil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/backoffice/bo_movie.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/backoffice/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/profile/edit_profile.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/profile/profile.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/common/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/common/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/app.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/common/nav.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/movie/movie.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/movie/movie.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/nav.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/dashboard/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/security/login.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/security/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MovieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/MovieType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MovieType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/home/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/movie/movie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/movie/movie.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/dashboard/sidebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/sidebar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/sidebar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
@@ -224,8 +234,8 @@
       <recent name="$PROJECT_DIR$/public/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/icones" />
       <recent name="$PROJECT_DIR$/assets/styles" />
+      <recent name="$PROJECT_DIR$/assets/img/icones" />
     </key>
   </component>
   <component name="RunManager">
@@ -256,7 +266,9 @@
       <workItem from="1681136378011" duration="2619000" />
       <workItem from="1681139658534" duration="21556000" />
       <workItem from="1681227656803" duration="3654000" />
-      <workItem from="1681231320699" duration="11908000" />
+      <workItem from="1681231320699" duration="12568000" />
+      <workItem from="1681326529044" duration="7010000" />
+      <workItem from="1681409904822" duration="9158000" />
     </task>
     <servers />
   </component>

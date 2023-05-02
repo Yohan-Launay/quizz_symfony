@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+                                <img class="w-8 h-8 rounded-full" src="{{ asset("assets/img/icone-default-profil.png") }}" alt="user photo">
+                                    {{ app.user.nickname }}
+                                    {{ app.user.email }}
+                                    <a href="{{ path('app_profile') }}">Profile</a>
+
+                                    <a href="{{ path('app_logout') }}">Se déconnecter</a>
+
+
+
+                    <a href="{{ path('app_dashboard') }}">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="">Accueil</span>
+                    </a>
+
+                    <a href="{{ path('app_movie') }}">
+                        <i class="fa-solid fa-film"></i>
+                         <span class="flex-1 ml-3 whitespace-nowrap">Films</span>
+                    </a>
+
+
+    {% if is_granted('ROLE_ADMIN') %}
+            <a href="{{ path('app_bo_home') }}" >Back-office</a>
+            <a href="{{ path('app_bo_movie') }}" >Ajouter un film</a>
+    {% endif %}
+
+{% endblock %}

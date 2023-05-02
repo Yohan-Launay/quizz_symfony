@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <section id="welcome">
+        <div class="body">
+            <div class="content">
+            {% for movie in movies %}
+                <div class="img_movie" style="background-image: url({{ vich_uploader_asset(movie, 'imageFile') }})">
+                    <div class="content_img">
+                        <h2>{{ movie.name }}</h2>
+                    </div>
+                </div>
+{#                <img class="object-cover w-25 rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="{{ vich_uploader_asset(movie, 'imageFile') }}" alt="">#}
+            {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

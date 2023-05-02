@@ -1,0 +1,44 @@
+#welcome {
+  .body {
+    height: 100vh;
+    background: linear-gradient(243.37deg, rgba(199, 108, 108, 0.2) 24.29%, rgba(0, 0, 0, 0) 100%), #131A28;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .img_movie {
+        width: 300px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: 1s;
+        margin: 20px;
+        mix-blend-mode: screen;
+        opacity: 0.79;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.37);
+        &:hover {
+          height: 750px;
+          width: 350px;
+        }
+        .content_img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100%;
+          width: 100%;
+          h2 {
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+            opacity: 1;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+          }
+        }
+      }
+    }
+  }
+}

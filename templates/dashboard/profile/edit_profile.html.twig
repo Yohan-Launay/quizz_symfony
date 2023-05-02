@@ -1,0 +1,12 @@
+{% extends 'dashboard/index.html.twig' %}
+
+{% block content %}
+    <section id="profile_edit" class="dark:bg-gray-800">
+        <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
+        {{ form_start(form_profile_edit) }}
+
+            <button type="submit">Editer</button>
+        {{ form_end(form_profile_edit) }}
+        </div>
+    </section>
+{% endblock %}
